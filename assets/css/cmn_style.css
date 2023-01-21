@@ -9,6 +9,7 @@ a {
   text-decoration: none;
 
   color: #000;
+  transition: 0.5s;
 }
 a:link {
   text-decoration: none;
@@ -127,6 +128,22 @@ section {
 }
 .colgp .col2box {
   width: 50%;
+  padding: 10px;
+}
+.about p {
+  line-height: 2;
+}
+.about p span {
+  font-weight: bold;
+}
+.cv-form {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+.cv-form:hover {
+  font-size: 20px;
 }
 @media screen and (max-width: 767px) {
   .colgp .col3box,
@@ -157,7 +174,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/background_mv.jpg) center no-repeat;
+  background: url(../img/background-img.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
